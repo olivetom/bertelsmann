@@ -25,6 +25,6 @@ cd Lesson3
 pipenv run python 001_and_perceptron.py
 cd ..
 
-5. Specify python version using:
+5. If error regarding python version, please specify python version using:
 
 pipenv --python /usr/bin/python3.6
