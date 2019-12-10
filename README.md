@@ -16,6 +16,8 @@ pipenv sync --dev
 
 From now on, precede commands with pipenv run to make sure they use the correct environment.
 
+If dependencies are needed please run pipenv install <libname>
+
 
 4. Kick off a command
 Before you get started, please run a command that will confirm everything is all right.
