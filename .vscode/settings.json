@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/moliveto/.local/share/virtualenvs/bertelsmann-o60Iy-Jh/bin/python"
+    "python.pythonPath": "/Users/moliveto/.local/share/virtualenvs/bertelsmann-o60Iy-Jh/bin/python",
+   "python.pipenvPath":"/usr/local/bin/pipenv"
 }
