@@ -87,8 +87,23 @@ def view_classify(img, ps, version="MNIST"):
                             'Shirt',
                             'Sneaker',
                             'Bag',
-                            'Ankle Boot'], size='small');
+                            'Ankle Boot'], size='small')
     ax2.set_title('Class Probability')
     ax2.set_xlim(0, 1.1)
 
     plt.tight_layout()
+
+def label_decoder_fmnist(label_item):
+    descriptions = ("T-shirt/top",
+                "Trouser",
+                "Pullover",
+                "Dress",
+                "Coat",
+                "Sandal",
+                "Shirt",
+                "Sneaker",
+                "Bag",
+                "Ankle boot",
+                )
+    label_decoder = dict(zip(range(10), descriptions))
+    return label_decoder[label_item]
