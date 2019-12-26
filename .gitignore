@@ -2,4 +2,4 @@
 *.swp
 .vscode
 *.lock
-
+__pycache__
