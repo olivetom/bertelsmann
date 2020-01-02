@@ -2,4 +2,6 @@
 *.swp
 .vscode
 *.lock
-__pycache__
+__pycache__/*
+Cat_Dog_data
+.DS_Store/*
