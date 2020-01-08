@@ -3,3 +3,7 @@
 .vscode
 Lesson05/Cat_Dog_data/*
 __pycache__/*
+*.lock
+__pycache__/*
+Cat_Dog_data
+.DS_Store/*

@@ -7,6 +7,7 @@ git clone https://github.com/olivetom/bertelsmann.git
 Go into it and make sure you have the latest.
 
 cd bertelesmann
+
 git pull origin master
 
 3. Set up the Python environment

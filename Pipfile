@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 jupyter = "*"
+pylint = "*"
 
 [packages]
 pandas = "*"
@@ -13,6 +14,7 @@ matplotlib = "*"
 ipykernel = "*"
 notebook = "*"
 jupyter = "*"
+torch = "*"
 
 [requires]
 python_version = "3.7"
